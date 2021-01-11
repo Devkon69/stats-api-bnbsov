@@ -1,13 +1,13 @@
 [Unit]
-Description=stats-api-bsov
+Description=stats-api-bnbsov
 Wants=nginx.target
 
 [Service]
 Type=simple
 User=ubuntu
 Group=ubuntu
-WorkingDirectory=/home/ubuntu/stats-api-bsov
-ExecStart=/home/ubuntu/stats-api-bsov/run.sh sinatra
+WorkingDirectory=/home/ubuntu/stats-api-bnbsov
+ExecStart=/home/ubuntu/stats-api-bnbsov/run.sh sinatra
 Restart=always
 TimeoutSec=10
 
