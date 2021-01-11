@@ -72,7 +72,7 @@ class StatsApiThread < Thread
       apiVersion:                         "1.01",
       name:                               s[:name],
       symbol:                             s[:symbol],
-      contractUrl:                        "https://etherscan.io/address/#{CONTRACT_ADDR}",
+      contractUrl:                        "https://bscscan.com//address/#{CONTRACT_ADDR}",
       contractAddress:                    CONTRACT_ADDR,
       decimals:                           dec_units,
       difficulty:                         difficulty,
