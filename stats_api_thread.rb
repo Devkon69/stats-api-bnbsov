@@ -3,7 +3,7 @@ require "digest/sha3"
 class StatsApiThread < Thread
   attr_reader :stats
 
-  CONTRACT_ADDR = "0x26946ada5ecb57f3a1f91605050ce45c482c9eb1"
+  CONTRACT_ADDR = "0x341e09f0Aa71Cb742537Aa4B946621E2d458a1E9"
   DEFAULT_STATS = {}
 
   def initialize(every:, on_change: nil, parity:)
