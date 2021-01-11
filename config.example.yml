@@ -2,6 +2,6 @@
 port: 4568
 # HTTP ethereum EVM endpoint (e.g., parity, infura)
 # e.g.: https://mainnet.infura.io/v3/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-provider: https://mainnet.infura.io/v3/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+provider: https://bsc-dataseed.binance.org/
 # how often to ask the EVM (parity, infura, geth) for new stats, in seconds
 every: 10
